@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ohjgnumiLlX7B18fqwAmTWVZddZKC82+s/wVDWAlAbgSIIn4QI9vXsYiZwbcsxpDMb5cxLKzg0sTOnWw9u9PKA==",
+  "dgSpecHash": "KhP3mTdosDRH4ZcQPGtGWROhmSVBe7Hrg1s0/Xsf4o7Sj0gup3LhRMpZicQ37fJxs8tOAq8u0Qrm6w6pfve2ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eleven\\Source\\Repos\\Lexicon-G2\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj",
+  "projectFilePath": "C:\\Users\\Eleven\\Documents\\GitHub\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eleven\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.4\\microsoft.aspnetcore.cryptography.internal.3.1.4.nupkg.sha512",
     "C:\\Users\\Eleven\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.4\\microsoft.aspnetcore.cryptography.keyderivation.3.1.4.nupkg.sha512",
