@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eleven\\Documents\\GitHub\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj": {}
+    "C:\\Users\\Eleven\\Source\\Repos\\Lexicon-G2\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eleven\\Documents\\GitHub\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj": {
+    "C:\\Users\\Eleven\\Source\\Repos\\Lexicon-G2\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eleven\\Documents\\GitHub\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj",
+        "projectUniqueName": "C:\\Users\\Eleven\\Source\\Repos\\Lexicon-G2\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj",
         "projectName": "WebAppForWebshop",
-        "projectPath": "C:\\Users\\Eleven\\Documents\\GitHub\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj",
+        "projectPath": "C:\\Users\\Eleven\\Source\\Repos\\Lexicon-G2\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\WebAppForWebshop.csproj",
         "packagesPath": "C:\\Users\\Eleven\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eleven\\Documents\\GitHub\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\obj\\",
+        "outputPath": "C:\\Users\\Eleven\\Source\\Repos\\Lexicon-G2\\WebShop\\WebAppForWebshop\\WebAppForWebshop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eleven\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
