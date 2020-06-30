@@ -50,7 +50,6 @@ C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebsho
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.csprojAssemblyReference.cache
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.AssemblyInfoInputs.cache
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.AssemblyInfo.cs
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.RazorAssemblyInfo.cache
@@ -164,3 +163,7 @@ C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebsho
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.csprojAssemblyReference.cache
+C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\Razor\Views\Role\Create.cshtml.g.cs
+C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\Razor\Views\Role\Index.cshtml.g.cs
+C:\Users\Eleven\Source\Repos\Lexicon-G2\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\Razor\Views\Role\Update.cshtml.g.cs
