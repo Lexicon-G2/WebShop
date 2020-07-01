@@ -37,6 +37,7 @@ namespace WebAppForWebshop
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddHttpContextAccessor();
 
             services.Configure<IdentityOptions>(options =>
             {
