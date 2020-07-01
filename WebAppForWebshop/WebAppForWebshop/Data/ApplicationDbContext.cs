@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using WebAppForWebshop.Models;
 
 namespace WebAppForWebshop.Data
 {
@@ -12,5 +13,12 @@ namespace WebAppForWebshop.Data
             : base(options)
         {
         }
+
+        public DbSet<Products> Products { get; set; }
+        //public DbSet<Customers> Customers { get; set; }
+        public DbSet<Orders> Orders { get; set; }
+
+        DbSet<ApplicationUser> Users { get; set; }
+
     }
 }
