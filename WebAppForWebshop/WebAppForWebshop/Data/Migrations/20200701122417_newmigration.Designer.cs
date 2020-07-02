@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebAppForWebshop.Data;
 
 namespace WebAppForWebshop.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200701122417_newmigration")]
+    partial class newmigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,14 +51,14 @@ namespace WebAppForWebshop.Data.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "2a2e64d5-0590-4d11-9c92-0564e9d216be",
-                            Name = "Head Admin",
-                            NormalizedName = "HEAD ADMIN"
+                            ConcurrencyStamp = "968e62f0-50cd-4e28-b8d3-9102a7150e48",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "af28f4fe-f73a-466d-bae7-fe49d1d5b6cd",
+                            ConcurrencyStamp = "a331ff09-3c8d-4f46-b784-8e60a8f5c58b",
                             Name = "Staff",
                             NormalizedName = "STAFF"
                         });
