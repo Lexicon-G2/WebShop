@@ -333,3 +333,7 @@ C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\D
 C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.dll
 C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.pdb
 C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.genruntimeconfig.cache
+C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.csproj.CoreCompileInputs.cache
+C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\WebAppForWebshop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Eleven\Documents\GitHub\WebShop\WebAppForWebshop\WebAppForWebshop\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\Index.cshtml.g.cs
