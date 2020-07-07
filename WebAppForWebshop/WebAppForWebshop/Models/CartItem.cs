@@ -9,7 +9,16 @@ namespace WebAppForWebshop.Models
 {
     public class CartItem
     {
-        
+        //public List <Products> Product { get; set; }
+
+        //public int Quantity { get; set; }
+
+
+        //public CartItem(List<Products>  product, int quantity)
+        //{
+        //    Product = product;
+        //    Quantity = quantity;
+        //}
 
 
         [Key]
@@ -24,7 +33,6 @@ namespace WebAppForWebshop.Models
         public int ProductId { get; set; }
 
         public virtual Products Product { get; set; }
-
     }
 }
     

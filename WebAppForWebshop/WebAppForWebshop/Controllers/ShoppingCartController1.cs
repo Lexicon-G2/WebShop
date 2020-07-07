@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAppForWebshop.Data;
@@ -11,41 +10,30 @@ using WebAppForWebshop.Models;
 
 namespace WebAppForWebshop.Controllers
 {
-    [Authorize]
-
-    public class ShoppingCartController : Controller
+    public class ShoppingCartController1 : Controller
     {
 
         public string ShoppingCartId { get; set; }
 
-        private readonly ApplicationDbContext _db = new ApplicationDbContext();
+        private ApplicationDbContext _db = new ApplicationDbContext();
 
         public const string CartSessionKey = "CartId";
 
         private readonly IHttpContextAccessor _httpContextAccessor;
+ 
 
-
-
-        public ShoppingCartController(IHttpContextAccessor httpContextAccessor, ApplicationDbContext db)
+ 
+public ShoppingCartController1(IHttpContextAccessor httpContextAccessor)            
         {
             _httpContextAccessor = httpContextAccessor;
-
-            _db = db;
         }
-
-
 
         //get shopping Cart
         public IActionResult Index()
         {
 
-            ShoppingCartId = GetCartId();
-
-            return View("Index", _db.ShoppingCartItems.Where(
-                c => c.CartId == ShoppingCartId).ToList());
-
+            return View();
         }
-
 
 
 
@@ -53,8 +41,6 @@ namespace WebAppForWebshop.Controllers
         {
             // Retrieve the product from the database. 
             ShoppingCartId = GetCartId();
-
-
 
             var cartItem = _db.ShoppingCartItems.SingleOrDefault(
                 c => c.CartId == ShoppingCartId
@@ -73,8 +59,6 @@ namespace WebAppForWebshop.Controllers
                     DateCreated = DateTime.Now
                 };
 
-
-
                 _db.ShoppingCartItems.Add(cartItem);
             }
             else
@@ -85,24 +69,18 @@ namespace WebAppForWebshop.Controllers
             }
             _db.SaveChanges();
 
-
-
             return View();
         }
 
-
-
-
+       
         public string GetCartId()
         {
-
-
-
+            
             if (HttpContext.Session.GetString("CartSessionKey") == null)
             {
                 if (!string.IsNullOrWhiteSpace(_httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value))
                 {
-                    HttpContext.Session.SetString("CartSessionKey", _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value);
+                    HttpContext.Session.SetString("CartSessionKey",_httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value);
                 }
                 else
                 {
@@ -114,19 +92,12 @@ namespace WebAppForWebshop.Controllers
             return HttpContext.Session.GetString("CartSessionKey").ToString();
         }
 
-
-
         public List<CartItem> GetCartItems()
         {
             ShoppingCartId = GetCartId();
 
-
-
             return _db.ShoppingCartItems.Where(
                 c => c.CartId == ShoppingCartId).ToList();
         }
-
-       
-
     }
 }

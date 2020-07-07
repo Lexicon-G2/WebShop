@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WebAppForWebshop.Models;
 
-
 namespace WebAppForWebshop.Data
 {
     public class ApplicationDbContext : IdentityDbContext
@@ -15,23 +14,17 @@ namespace WebAppForWebshop.Data
         {
         }
 
-
         public ApplicationDbContext()
-            : base()
         {
         }
-
 
         public DbSet<Products> Products { get; set; }
         //public DbSet<Customers> Customers { get; set; }
         public DbSet<Orders> Orders { get; set; }
 
-
         DbSet<ApplicationUser> Users { get; set; }
 
-
         public DbSet<CartItem> ShoppingCartItems { get; set; }
-
 
     }
 }
